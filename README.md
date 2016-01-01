@@ -1,4 +1,10 @@
-SAP HANA Cloud Samples - basecamp
+Continuous Delivery to SAP HANA Cloud Platform, using GitHub and Travis CI
+========
+
+Read the blog post here: http://scn.sap.com/community/cloud-platform/blog/2016/01/01/continuous-delivery-to-hana-cloud-platform-using-github-and-travis-ci
+
+
+Forked from: SAP HANA Cloud Samples - basecamp
 ========
 
 A simple [Maven](http://maven.apache.org/) skeleton project of [web app archetype](https://maven.apache.org/archetype/maven-archetype-bundles/maven-archetype-webapp/)
