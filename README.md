@@ -1,6 +1,8 @@
 Continuous Delivery to SAP HANA Cloud Platform, using GitHub and Travis CI
 ========
 
+[![Build Status](https://travis-ci.org/MitchK/cloud-basecamp.svg?branch=master)](https://travis-ci.org/MitchK/cloud-basecamp)
+
 Read the blog post here: http://scn.sap.com/community/cloud-platform/blog/2016/01/01/continuous-delivery-to-hana-cloud-platform-using-github-and-travis-ci
 
 
