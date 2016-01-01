@@ -5,6 +5,6 @@ script:
  - sudo -E apt-get update
  - sudo -E apt-get install expect
 after_script:
-  - if [[ $TRAVIS_PULL_REQUEST == 'false' && $TRAVIS_BRANCH == 'master' ]]; then bash .travis/deploy production || exit $?; fi
+  - if [[ $TRAVIS_PULL_REQUEST == 'false' && $TRAVIS_BRANCH == 'master' ]]; then expect -f .travis/deploy production || exit $?; fi
 notifications:
   email: true
