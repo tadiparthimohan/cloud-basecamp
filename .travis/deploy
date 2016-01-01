@@ -1,0 +1,9 @@
+#!/usr/bin/expect -f
+set timeout -1
+set appname [lindex $argv 0]
+spawn bash .travis/push $appname
+expect "Are you located inside the EU?(yes/no)"
+send "yes\r"
+expect "Are you located inside the EU?(yes/no)"
+send "yes\r"
+interact

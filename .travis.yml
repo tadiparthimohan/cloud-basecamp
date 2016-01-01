@@ -1,0 +1,11 @@
+language: java
+jdk:
+- openjdk7
+script:
+ - sudo -E apt-get install expect
+ - mvn install
+ - mvn package
+after_script:
+  - if [[ $TRAVIS_PULL_REQUEST == 'false' && $TRAVIS_BRANCH == 'master' ]]; then .travis/deploy production || exit $?; fi
+notifications:
+  email: true
